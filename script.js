@@ -51,6 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
         return true;
     }
 
+
+    
     function validateIncome() {
         if (incomeField.value === "" || isNaN(parseFloat(incomeField.value))) {
             incomeError.style.display = "block";
